@@ -168,9 +168,9 @@ public class SettingsActivity extends AppCompatActivity {
         }
         switch (SmashingLogic.smashingMode) {
             //CHANGE THIS TO INCREASE SMASHER NUMBER
-            case 0:
-                if (Integer.parseInt(number.getText().toString()) > 100) {
-                    number.setText("100");
+            case 250:
+                if (Integer.parseInt(number.getText().toString()) > 250) {
+                    number.setText("250");
                     //Warning, I limited it to 100 kahoots for a reason
                 }
                 break;
